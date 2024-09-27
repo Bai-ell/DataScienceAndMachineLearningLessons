@@ -3,7 +3,6 @@
 Thumbs.db
 MacOs
 
-
 # Python
 __pycache__/
 *.py[cod]
@@ -29,5 +28,6 @@ ENV/
 
 # Данные конфиденциальности
 *.env
+
+# Исключение папки ml-100k
 ml-100k/
-/ml-100k
