@@ -2,4 +2,8 @@ ml-100k.zip filter=lfs diff=lfs merge=lfs -text
 seaborn_lessons.zip filter=lfs diff=lfs merge=lfs -text
 9module.zip filter=lfs diff=lfs merge=lfs -text
 machinelearning/9module/archive/* filter=lfs diff=lfs merge=lfs -text
+machinelearning/9module/archive/qualifying.txt filter=lfs diff=lfs merge=lfs -text
+machinelearning/9module/archive/probe.txt filter=lfs diff=lfs merge=lfs -text
+machinelearning/9module/archive/movie_titles.txt filter=lfs diff=lfs merge=lfs -text
+
 machinelearning/9module/archive/* !text !filter !merge !diff
