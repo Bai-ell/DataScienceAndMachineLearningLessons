@@ -1,36 +1,37 @@
-# Операционные системы
-.DS_Store
-Thumbs.db
-MacOs
-
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg
-*.egg-info/
-dist/
-build/
-*.whl
-
-# Виртуальные окружения
-venv/
+# Игнорировать виртуальные окружения Python
+.venv/
 env/
 ENV/
-.venv/
+venv/
 
-# Файлы конфигурации IDE
-.vscode/
+# Игнорировать файлы, связанные с IDE
 .idea/
-*.sublime-project
-*.sublime-workspace
+.vscode/
 
-# Данные конфиденциальности
-*.env
+# Игнорировать файлы компиляции Python
+*.pyc
+*.pyo
+__pycache__/
 
-# Исключение папки ml-100k
+# Игнорировать большие файлы данных
+machinelearning/9module/archive/*.txt
+machinelearning/9module/archive/*.csv
+
+# Игнорировать папку ml-100k и все её содержимое
 ml-100k/
 
-seaborn_lesson/
-machinelearning/
+# Игнорировать файлы LFS
+*.psd
+*.dmg
+
+# Игнорировать другие временные файлы
+*.log
+*.tmp
+*.bak
+
+# Игнорировать конфигурационные файлы
+*.config
+
+# Игнорировать файлы систем
+.DS_Store
+Thumbs.db
