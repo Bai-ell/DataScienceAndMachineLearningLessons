@@ -30,7 +30,6 @@ ENV/
 *.env
 
 # Исключение папки ml-100k
+machinelearning/9module/archive/
 ml-100k/
 
-seaborn_lesson/
-machinelearning/
